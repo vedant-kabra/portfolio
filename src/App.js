@@ -5,25 +5,28 @@ import data from './data.json';
 class App extends Component {
   render() {
     return (
-      <Fragment>
-        <nav className="navbar justify-content-around">
-          <ul className="nav nav-pills">
-            <li className="nav-item">
-              <a className="nav-link active">hi</a>
-          </li>
-            <li className="nav-item">
-              <a className="nav-link">hi</a>
-          </li>
-            <li className="nav-item">
-              <a className="nav-link">hi</a>
-          </li>
-            <li className="nav-item">
-              <a className="nav-link">hi</a>
-          </li>
+      <Router>
+        <nav className="navbar text justify-content-around">
+          <ul className="nav">
+            <li className="nav-link">
+              <Link to="/">Home</Link>
+            </li>
+            <li className="nav-link">
+              <Link to="/resume">Resume</Link>
+            </li>
+            <li className="nav-link">
+              <Link to="/about">About</Link>
+            </li>
+            <li className="nav-link">
+              <Link to="/contact">Contact</Link>
+            </li>
           </ul>
-          {console.log(data)}
         </nav>
-      </Fragment>
+        <Route exact path="/" component="Home" />
+        <Route path="/resume" component="Resume" />
+        <Route path="/about" component="About" />
+        <Route path="/contact" component="Contact" />
+      </Router>
     );
   }
 }
