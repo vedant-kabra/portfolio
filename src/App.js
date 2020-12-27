@@ -4,7 +4,6 @@ import data from "./data.json";
 import Home from "./components/Home";
 import Resume from "./components/Resume";
 import About from "./components/About";
-import Contact from "./components/Contact";
 import "./App.css";
 
 class App extends Component {
@@ -22,15 +21,11 @@ class App extends Component {
               <Link to="/about">
                 <p className="nav-link">About</p>
               </Link>
-              <Link to="/contact">
-                <p className="nav-link">Contact</p>
-              </Link>
           </ul>
         </nav>
         <Route exact path="/" component={Home} />
         <Route path="/resume" component={Resume} />
         <Route path="/about" component={About} />
-        <Route path="/contact" component={Contact} />
       </Router>
     );
   }
