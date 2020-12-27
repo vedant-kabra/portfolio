@@ -1,5 +1,17 @@
 {
-    "firstName": "Tushar",
-    "middleName": null,
-    "lastName": "Sonthalia"
+    "homeData": {
+        "firstName": "Tushar",
+        "middleName": null,
+        "lastName": "Sonthalia",
+        "briefDescription": "I am a second year Data Science Undergraduate Student at SP Jain School of Global Management.",
+        "homePageDescription": "Feel free to browse around the code for this website at my <a src='https://github.com/tusharsonthalia/portfolio'>github</a> repository. In order to create your own website, change the data found in the data.json file.",
+        "backgroundImage": "https://images.unsplash.com/photo-1536108978996-128e3e2a9783?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=875&q=80"
+    },
+    "socials": [
+        {
+            "name": "Github",
+            "iconUrl": "https://simpleicons.org/icons/github.svg",
+            "accountUrl": "https://github.com/tusharsonthalia/"
+        }
+    ]
 }
