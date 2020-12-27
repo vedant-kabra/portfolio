@@ -53,6 +53,17 @@
             }
         ]
     },
+    "aboutData": {
+        "name": "Tushar Sonthalia",
+        "bio": "I am a second year student.",
+        "street": "33/4, Kala Bagan Lane",
+        "city": "Kolkata",
+        "state": "West Bengal",
+        "pin": 711104,
+        "phone": 9331979251,
+        "email": "sonthaliatushar@gmail.com",
+        "imageAddress": "https://media-exp1.licdn.com/dms/image/C5103AQHhmgtOtiyd_Q/profile-displayphoto-shrink_400_400/0/1575511867364?e=1614816000&v=beta&t=UrYQGCoV0Tv3MFRXIsiinW4VXAw-NUYF0dZMbA-Ndx8"
+    },
     "socials": [
         {
             "name": "Github",
