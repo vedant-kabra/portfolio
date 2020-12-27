@@ -4,14 +4,70 @@
         "middleName": null,
         "lastName": "Sonthalia",
         "briefDescription": "I am a second year Data Science Undergraduate Student at SP Jain School of Global Management.",
-        "homePageDescription": "Feel free to browse around the code for this website at my <a src='https://github.com/tusharsonthalia/portfolio'>github</a> repository. In order to create your own website, change the data found in the data.json file.",
-        "backgroundImage": "https://images.unsplash.com/photo-1536108978996-128e3e2a9783?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=875&q=80"
+        "homePageDescription": "Feel free to browse around the code for this website at my github repository. In order to create your own website, change the data found in the data.json file.",
+        "backgroundImage": "https://github.com/tusharsonthalia/portfolio/blob/main/images/starry-night.jpg?raw=true"
+    },
+    "resumeData": {
+        "education": [
+            {
+                "school": "SP Jain School of Global Management",
+                "degree": "Bachelor's Degree, Data Science",
+                "graduated": "April 2020",
+                "description": "Dean's Lister"
+            }
+        ],
+        "experience": [
+            {
+                "company": "Adaptive Investment Solutions",
+                "title": "Python/MYSQL Developer",
+                "years": "August 2020 - Present",
+                "description": "Worked on the Backend"
+            },
+            {
+                "company": "IIT Bombay",
+                "title": "Research Intern",
+                "years": "May 2020 - June 2020",
+                "description": "Interned at IIT Bombay"
+            }
+        ],
+        "skills": [
+            {
+                "name": "ReactJs",
+                "level": 100
+            },
+            {
+                "name": "Python",
+                "level": 95
+            },
+            {
+                "name": "Git",
+                "level": 75
+            },
+            {
+                "name": "JavaScript",
+                "level": 100
+            },
+            {
+                "name": "Pandas",
+                "level": 80
+            }
+        ]
     },
     "socials": [
         {
             "name": "Github",
-            "iconUrl": "https://simpleicons.org/icons/github.svg",
+            "className": "fa fa-github",
             "accountUrl": "https://github.com/tusharsonthalia/"
+        },
+        {
+            "name": "LinkedIn",
+            "className": "fa fa-linkedin",
+            "accountUrl": "https://linkedin.com/in/tusharsonthalia/"
+        },
+        {
+            "name": "Instagram",
+            "className": "fa fa-instagram",
+            "accountUrl": "https://instagram.com/tusharsonthalia/"
         }
     ]
 }
