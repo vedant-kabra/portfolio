@@ -1,0 +1,47 @@
+App.js (implement navbar with links to the other section using React Router)
+    | - Home.js (Background Image)
+        "
+        Hi, I am FirstName MiddleName LastName. Brief Description.
+
+        HomePageDescription.
+        "
+    | - About.js
+        "
+        AboutDescription
+        "
+    | - Contact.js
+        "
+        Simple Form
+        "
+    | - Resume.js
+        "
+        Education
+            School 1
+            School 2
+
+        Projects
+            Project 1
+            Project 2
+
+        Skills
+            Graph
+        "
+        | - Footer.js
+
+
+resume: {
+    education: [
+    school1: {..}
+    school2: {..}
+    school3: {..}
+    ]
+    projects: [
+    {..}
+    {..}
+    ]
+    skill: [
+    {skill1: percent}
+    {skill2: percent}
+    {skill3: percent}
+    ]
+}
