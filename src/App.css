@@ -1,0 +1,9 @@
+.nav-link {
+    color: white;
+    margin: 0;
+    padding: 16px !important;
+}
+
+.nav-link:hover, .nav-link.active {
+    color: orange;
+}
