@@ -1,0 +1,23 @@
+.home-section {
+    min-height: 91.2vh;
+    /* background-color: gray; */
+}
+
+.text-shadow {
+    text-shadow: 10px 10px 10px black;
+}
+
+i.fa {
+    font-size: 48px;
+    color: white;
+}
+
+i.fa:hover {
+    color: black;
+}
+
+.socials li {
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
