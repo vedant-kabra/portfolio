@@ -1,12 +1,28 @@
 import React, { Component, Fragment } from 'react'
-
-import './App.css';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import data from './data.json';
 
 class App extends Component {
   render() {
     return (
       <Fragment>
-        <h1>Hello World</h1>
+        <nav className="navbar justify-content-around">
+          <ul className="nav nav-pills">
+            <li className="nav-item">
+              <a className="nav-link active">hi</a>
+          </li>
+            <li className="nav-item">
+              <a className="nav-link">hi</a>
+          </li>
+            <li className="nav-item">
+              <a className="nav-link">hi</a>
+          </li>
+            <li className="nav-item">
+              <a className="nav-link">hi</a>
+          </li>
+          </ul>
+          {console.log(data)}
+        </nav>
       </Fragment>
     );
   }
