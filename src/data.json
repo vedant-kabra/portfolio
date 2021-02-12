@@ -1,84 +1,74 @@
 {
     "homeData": {
-        "firstName": "Tushar",
+        "firstName": "Vedant",
         "middleName": null,
-        "lastName": "Sonthalia",
-        "briefDescription": "I am a second year Data Science Undergraduate Student at SP Jain School of Global Management.",
-        "homePageDescription": "Feel free to browse around the code for this website at my github repository. In order to create your own website, change the data found in the data.json file.",
-        "backgroundImage": "https://github.com/tusharsonthalia/portfolio/blob/main/images/starry-night.jpg?raw=true"
+        "lastName": "Kabra",
+        "briefDescription": "I am currently in my second year at S P Jain School of Global Management.",
+        "backgroundImage": "https://lh3.googleusercontent.com/proxy/neUzOgTBI06bugo8IocK66xpMNAgzoz9Pav6_OS1fV8LKuouIBj3sHoZFS9zdc2DSam3Hdc_o5tKfeZfa4vLPnxU5AUtk1rICdoFjsWpgGXh5A680A"
     },
     "resumeData": {
         "education": [
             {
                 "school": "SP Jain School of Global Management",
                 "degree": "Bachelor's Degree, Data Science",
-                "graduated": "April 2020",
-                "description": "Dean's Lister"
+                "graduated": "April 2020"
+                
             }
         ],
         "experience": [
             {
-                "company": "Adaptive Investment Solutions",
-                "title": "Python/MYSQL Developer",
-                "years": "August 2020 - Present",
-                "description": "Worked on the Backend"
-            },
-            {
-                "company": "IIT Bombay",
+                "company": "Umass Boston",
                 "title": "Research Intern",
-                "years": "May 2020 - June 2020",
-                "description": "Interned at IIT Bombay"
+                "years": "May 2020 - Present",
+                "description": "Research Advisor : Prof Larry Pohlman and Prof Debashish Guha , Research on 20 years of daily prices of a large number of financial series including sector ETFs and the individual stocks in the SP500. Two techniques used: switching models and machine learning techniques. The goal is to determine investment rotation strategies that outperform buy and hold. Used PYHMM and VIX"
             }
+            
         ],
         "skills": [
             {
                 "name": "ReactJs",
-                "level": 100
+                "level": 80
             },
             {
                 "name": "Python",
-                "level": 95
-            },
-            {
-                "name": "Git",
-                "level": 75
-            },
-            {
-                "name": "JavaScript",
                 "level": 100
             },
             {
-                "name": "Pandas",
-                "level": 80
+                "name": "C",
+                "level": 75
+            },
+            {
+                "name": "SQL",
+                "level": 100
+            },
+            {
+                "name": "pandas",
+                "level": 100
             }
         ]
     },
     "aboutData": {
-        "name": "Tushar Sonthalia",
-        "bio": "I am a second year student.",
-        "street": "33/4, Kala Bagan Lane",
-        "city": "Kolkata",
-        "state": "West Bengal",
-        "pin": 711104,
-        "phone": 9331979251,
-        "email": "sonthaliatushar@gmail.com",
-        "imageAddress": "https://media-exp1.licdn.com/dms/image/C5103AQHhmgtOtiyd_Q/profile-displayphoto-shrink_400_400/0/1575511867364?e=1614816000&v=beta&t=UrYQGCoV0Tv3MFRXIsiinW4VXAw-NUYF0dZMbA-Ndx8"
+        "name": "Vedant Kabra",
+        "bio": "Research Intern",
+        "street": "7-1-214,A/2,Pithruchaya, DK road",
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "pin": 500016,
+        "phone": 8074150701,
+        "email": "kabravedant99@gmail.com",
+        "imageAddress": "https://media-exp1.licdn.com/dms/image/C5103AQEdpmo5MWKddg/profile-displayphoto-shrink_400_400/0/1573727157127?e=1614816000&v=beta&t=5Xd9IDPmFEz3xvBKEgNy7bch_iXeYPVEwiW_Nxtk6s4"
     },
     "socials": [
         {
             "name": "Github",
             "className": "fa fa-github",
-            "accountUrl": "https://github.com/tusharsonthalia/"
+            "accountUrl": "https://github.com/vedant-kabra"
         },
         {
             "name": "LinkedIn",
             "className": "fa fa-linkedin",
-            "accountUrl": "https://linkedin.com/in/tusharsonthalia/"
-        },
-        {
-            "name": "Instagram",
-            "className": "fa fa-instagram",
-            "accountUrl": "https://instagram.com/tusharsonthalia/"
+            "accountUrl": "https://www.linkedin.com/in/vedant-kabra-1b4119156/"
         }
+
     ]
 }

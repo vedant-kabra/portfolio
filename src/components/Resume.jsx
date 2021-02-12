@@ -66,7 +66,7 @@ export default class Resume extends Component {
       return (
         <Plot
           data={[
-            { type: "bar", x: labels, y: values },
+            { type: "pie", labels: labels, values: values },
           ]}
         />
       );
@@ -75,7 +75,7 @@ export default class Resume extends Component {
 
   render() {
     return (
-      <div className="container py-5">
+      <div className="container py-5 bg-warning">
         <div className="row">
           <div className="col-3 text-muted font-weight-bold h1">
             <span className="underline border-info">Education</span>

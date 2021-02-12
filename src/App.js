@@ -10,7 +10,7 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <nav className="navbar p-0 text bg-dark justify-content-around font-weight-bold">
+        <nav className="navbar p-0 text bg-info justify-content-around font-weight-bold">
           <ul className="nav text-dark">
               <Link to="/">
                 <p className="nav-link">Home</p>
