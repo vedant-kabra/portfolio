@@ -23,9 +23,9 @@ class App extends Component {
               </Link>
           </ul>
         </nav>
-        <Route exact path="/" component={Home} />
-        <Route path="/resume" component={Resume} />
-        <Route path="/about" component={About} />
+        <Route exact path="/portfolio" component={Home} />
+        <Route path="/portfolio/resume" component={Resume} />
+        <Route path="/portfolio/about" component={About} />
       </Router>
     );
   }
